@@ -1,14 +1,14 @@
 module.exports = {
-  MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://abc:xxxxx', // MongoDB connection string
+  MONGO_URI: process.env.MONGO_URI || 'mongodb+srv://empiretech:kkVDB0ooTlgIsH11@cluster0.js7ra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
   mega: {
-    email: process.env.EMAIL || 'giftedtech.ironman@onlyfans.com', // Your MEGA email
-    password: process.env.PASS || 'abcdabcdabcd', // Your MEGA password
+    email: process.env.EMAIL || 'empiretech@duck.com', // Your MEGA email
+    password: process.env.PASS || 'Jehovah@1B', // Your MEGA password
     storagePath: './storage' // Local storage path for MEGA
   },
   server: {
     port: process.env.PORT || 3000, // Server port
-    domain: process.env.DOMAIN || 'https://cdn.giftedtech.web.id', // Your domain base URL
-    maxFileSize: 1024 * 1024 * 100, // 100 MB file size limit
+    domain: process.env.DOMAIN || 'https://cdn.empiretech.biz.id', // Your domain base URL
+    maxFileSize: 1024 * 1024 * 200, // 100 MB file size limit
     allowedTypes: [ // Allowed MIME types for file uploads
       'image/jpeg',
       'image/jpg',

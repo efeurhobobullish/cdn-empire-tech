@@ -72,7 +72,7 @@ fastify.get('/keep-alive', async (request, reply) => {
   return {
     status: 200,
     success: true,
-    creator: 'GiftedTech',
+    creator: 'Empire Tech',
     result: 'Keeping this Uploader Alive'
   };
 });

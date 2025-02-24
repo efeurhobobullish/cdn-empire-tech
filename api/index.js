@@ -149,7 +149,7 @@ fastify.post("/api/upload.php", async (request, reply) => {
     return {
       status: 200,
       success: true,
-      creator: 'GiftedTech',
+      creator: 'Empire Tech',
       files: uploads.map((upload) => ({
         file_name: `${files[0].originalFileName}`,
         stream_url: `${config.server.domain}/file/${files[0].originalFileName}`,
@@ -266,7 +266,7 @@ fastify.get("/file/delete/*", async (request, reply) => {
         return {
             status: 200,
             success: true,
-            creator: 'GiftedTech',
+            creator: 'Empire Tech',
             message: `File "${originalFileName}" Deleted Successfully from the Database.`,
         };
     } catch (error) {
